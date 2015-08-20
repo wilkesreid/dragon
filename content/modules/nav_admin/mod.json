@@ -1,0 +1,9 @@
+{
+	"mode":"whitelist",
+	"pages":[],
+	"folders":[
+		{
+			"name":"admin"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+[
+	{
+		"name": "nav_bar",
+		"mods": [
+			{"name":"nav_admin"},
+			{"name":"nav"}
+		]
+	},
+	{
+		"name": "footer",
+		"mods": [
+			{"name":"footer"}
+		]
+	}
+]

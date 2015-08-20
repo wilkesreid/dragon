@@ -1,0 +1,15 @@
+Options +FollowSymLinks -MultiViews -Indexes
+
+DirectoryIndex index.php
+
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteCond		%{REQUEST_FILENAME}		!-f
+
+# if action, write to action.php
+RewriteRule	^(action/)(.*)$		action.php?action=$2	[QSA,L]
+
+RewriteCond		$1					!^action
+
+# by default, rewrite to index.php as a request for a page
+RewriteRule		^(.*)$				index.php?route=$1		[QSA,L]

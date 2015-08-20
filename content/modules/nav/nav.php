@@ -1,0 +1,1 @@
+<a href="/">Home</a> | <a href="contact">Contact</a> | <a href="info">Info</a> | <a href="admin/home">Admin</a>
